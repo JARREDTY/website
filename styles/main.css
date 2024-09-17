@@ -1,0 +1,11 @@
+.card:hover {
+  box-shadow: 5px 5px 10px black;
+  #img {
+    transition: 0.3s;
+    opacity: 0.3;
+  }
+  .card-body {
+    color: white;
+  }
+}
+/* # sourceMappingURL=styles.css.map */
