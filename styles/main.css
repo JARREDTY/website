@@ -353,6 +353,21 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
   width: 80%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .tailwind {
+  width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
+  width: 70%;
+}
 
 .stat-title {
   text-transform: uppercase;
