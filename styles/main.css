@@ -781,8 +781,13 @@ section {
 }
 @media screen and (max-width: 1432px) {
   header {
-    margin: 5rem 0;
     padding: 0 !important;
+  }
+  header .left-header .image {
+    margin: 5rem 0;
+  }
+  header .right-header {
+    margin: 5rem 0;
   }
   .section {
     padding: 7rem 11rem;
