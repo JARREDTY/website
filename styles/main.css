@@ -667,6 +667,7 @@ section {
 /* Independent components */
 .btn-con {
   display: flex;
+  margin: 0.5rem;
   align-self: flex-start;
 }
 
@@ -780,6 +781,7 @@ section {
 }
 @media screen and (max-width: 1432px) {
   header {
+    margin: 5rem 0;
     padding: 0 !important;
   }
   .section {
