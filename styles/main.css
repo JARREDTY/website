@@ -743,6 +743,12 @@ section {
   font-size: 6.3rem;
 }
 
+.feet {
+  position: absolute;
+  left: 5%;
+  bottom: 1%;
+}
+
 /* # sourceMappingURL=styles.css.map */
 @media screen and (max-width: 600px) {
   .about-container {
