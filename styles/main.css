@@ -581,6 +581,18 @@ section {
   padding-bottom: 1rem;
 }
 /* Services section */
+@media only screen and (min-width: 1000px) {
+  .services .service img {
+    width: 750px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    filter: grayscale(100%);
+    transition: all 0.4s ease-in-out;
+  }
+}
 .services {
   display: grid;
   grid-template-columns: repeat(1fr);
