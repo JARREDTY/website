@@ -583,7 +583,7 @@ section {
 /* Services section */
 .services {
   display: grid;
-  grid-template-columns: repeat(1fr, 1fr);
+  grid-template-columns: repeat(1fr);
   justify-content: center;
   grid-gap: 2rem;
   margin-top: 3rem;
@@ -606,8 +606,8 @@ section {
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.8);
 }
 .services .service img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 5px;
