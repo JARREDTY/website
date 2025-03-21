@@ -618,7 +618,7 @@ section {
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.8);
 }
 .services .service img {
-  width: 100%;
+  width: 750px;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
