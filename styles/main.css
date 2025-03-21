@@ -58,7 +58,7 @@ header {
   font-family: "Poppins", sans-serif;
   overflow: hidden;
 }
-@media screen and (max-width: 610px) {
+@media only screen and (max-width: 610px) {
   header {
     min-height: 100vh;
   }
@@ -836,11 +836,11 @@ section {
   }
   .services {
     grid-template-columns: 1fr;
-    padding: 6rem;
+    padding-bottom: 6rem;
   }
   .services .service .img {
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 70px;
   }
   .blogs {
     grid-template-columns: 1fr;
