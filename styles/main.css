@@ -583,7 +583,7 @@ section {
 /* Services section */
 .services {
   display: grid;
-  grid-template-columns: repeat(750px, 1fr);
+  grid-template-columns: repeat(1fr, 1fr);
   justify-content: center;
   grid-gap: 2rem;
   margin-top: 3rem;
@@ -606,8 +606,8 @@ section {
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.8);
 }
 .services .service img {
-  width: 750px;
-  height: 300px;
+  width: 90%;
+  height: 90%;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 5px;
@@ -839,8 +839,8 @@ section {
     padding-bottom: 6rem;
   }
   .services .service .img {
-    width: 100px;
-    height: 70px;
+    width: 300px;
+    height: 200px;
   }
   .blogs {
     grid-template-columns: 1fr;
@@ -857,6 +857,9 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 3rem;
+  }
+  .contact {
+    
   }
 }
 @media only screen and (max-width: 1432px) {
@@ -976,4 +979,8 @@ section {
   .services {
     grid-template-columns: 1fr;
     padding: 6rem;
+  }
+  .contacts {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=main.css.map */
