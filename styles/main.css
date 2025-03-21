@@ -809,7 +809,7 @@ section {
 }
 
 /* # sourceMappingURL=styles.css.map */
-@media screen and (max-width: 760px) {
+@media only screen and (max-width: 760px) {
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -833,6 +833,14 @@ section {
   .portfolios {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+  }
+  .services {
+    grid-template-columns: 1fr;
+    padding: 6rem;
+  }
+  .services .service .img {
+    width: 200px;
+    height: 150px;
   }
   .blogs {
     grid-template-columns: 1fr;
@@ -949,7 +957,7 @@ section {
     margin: 0.6rem 2rem !important;
   }
 }
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .section {
     padding: 7rem 3rem;
   }
@@ -959,4 +967,10 @@ section {
   .main-title h2 {
     font-size: 3rem;
   }
+  .portfolios {
+    grid-template-columns: 1fr;
+  }
+  .services {
+    grid-template-columns: 1fr;
+    padding: 6rem;
 }/*# sourceMappingURL=main.css.map */
