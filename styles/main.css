@@ -825,7 +825,7 @@ section {
   }
   .timeline {
     grid-template-columns: 1fr;
-    padding: 6rem;
+    padding: 2rem;
   }
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
@@ -859,7 +859,7 @@ section {
     font-size: 3rem;
   }
 }
-@media screen and (max-width: 1432px) {
+@media only screen and (max-width: 1432px) {
   header {
     padding: 0 !important;
   }
@@ -887,7 +887,7 @@ section {
     margin-top: 1.5rem;
   }
 }
-@media screen and (max-width: 1070px) {
+@media only screen and (max-width: 1070px) {
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -910,7 +910,7 @@ section {
     font-size: 4.5rem;
   }
 }
-@media screen and (max-width: 970px) {
+@media only screen and (max-width: 970px) {
   .section {
     padding: 7rem 6rem;
   }
@@ -966,6 +966,9 @@ section {
   }
   .main-title h2 {
     font-size: 3rem;
+  }
+  .blogs {
+    grid-template-columns: 1fr;
   }
   .portfolios {
     grid-template-columns: 1fr;
