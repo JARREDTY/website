@@ -308,7 +308,7 @@ section {
   padding: 1rem;
   color: var(--color-grey1);
 }
-.about-container .left-about h4 {
+.about-container .left-about .h4 {
   font-size: 2rem;
   text-transform: uppercase;
 }
@@ -434,13 +434,13 @@ section {
   text-transform: uppercase;
   font-weight: 500;
 }
-.timeline .timeline-item h5 {
+.timeline .timeline-item .h5 {
   padding: 1rem 0;
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 600;
 }
-.timeline .timeline-item h5 span {
+.timeline .timeline-item .h5 span {
   color: var(--color-grey2);
   font-weight: 500;
   font-size: 1.2rem;
@@ -488,7 +488,7 @@ section {
   transform: scale(0);
   transition: all 0.4s ease-in-out;
 }
-.portfolios .portfolio-item .hover-items h3 {
+.portfolios .portfolio-item .hover-items .h3 {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
@@ -566,13 +566,13 @@ section {
   padding: 1.1rem;
   border-top: 8px solid var(--color-secondary);
 }
-.blogs .blog .blog-text h4 {
+.blogs .blog .blog-text .h4 {
   font-size: 1.5rem;
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
-.blogs .blog .blog-text h4:hover {
+.blogs .blog .blog-text .h4:hover {
   color: var(--color-secondary);
 }
 .blogs .blog .blog-text p {
@@ -632,13 +632,13 @@ section {
   padding: 1.1rem;
   border-top: 8px solid var(--color-secondary);
 }
-.services .service .service-text h4 {
+.services .service .service-text .h4 {
   font-size: 1.5rem;
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
-.services .service .service-text h4:hover {
+.services .service .service-text .h4:hover {
   color: var(--color-secondary);
 }
 .services .service .service-text p {
@@ -656,7 +656,7 @@ section {
 .contact-content-con .left-contact {
   flex: 2;
 }
-.contact-content-con .left-contact h4 {
+.contact-content-con .left-contact .h4 {
   margin-top: 1rem;
   font-size: 2rem;
   text-transform: uppercase;
@@ -792,16 +792,16 @@ section {
 .main-title {
   text-align: center;
 }
-.main-title h2 {
+.main-title h2, .h2 {
   position: relative;
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: 700;
 }
-.main-title h2 span {
+.main-title h2 span, .h2 span {
   color: var(--color-secondary);
 }
-.main-title h2 .bg-text {
+.main-title h2 .bg-text, .h2 .bg-text {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -861,13 +861,13 @@ section {
   .section {
     padding: 2rem 2.5rem;
   }
-  .main-title h2 {
+  .main-title h2, .h2 {
     font-size: 2rem;
   }
-  .main-title h2 span {
+  .main-title h2 span, .h2 span {
     font-size: 2.5rem;
   }
-  .main-title h2 .bg-text {
+  .main-title h2 .bg-text, .h2 .bg-text {
     font-size: 3rem;
   }
   .contact {
@@ -915,13 +915,13 @@ section {
   .blogs {
     grid-template-columns: 1fr 1fr;
   }
-  .main-title h2 {
+  .main-title h2, .h2 {
     font-size: 4rem;
   }
-  .main-title h2 span {
+  .main-title h2 span, .h2 span {
     font-size: 4rem;
   }
-  .main-title h2 .bg-text {
+  .main-title h2 .bg-text, .h2 .bg-text {
     font-size: 4.5rem;
   }
 }
@@ -979,7 +979,7 @@ section {
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
   }
-  .main-title h2 {
+  .main-title h2, .h2 {
     font-size: 3rem;
   }
   .blogs {
