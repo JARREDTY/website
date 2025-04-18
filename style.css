@@ -592,4 +592,11 @@ footer {
         z-index: 100;
         border-radius: 50px;
     }
+    footer {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 5rem 5rem 1rem 5rem;
+    }
 }
