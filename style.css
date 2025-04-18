@@ -11,6 +11,10 @@ body {
 
 /* Header */
 /* Nav */
+#navbar {
+    display: none;
+}
+
 header #navbars {
     width: 100%;
     position: sticky;
@@ -512,6 +516,9 @@ footer {
 @media only screen and (max-width: 430px) {
     #navbars {
         visibility: hidden;
+    }
+    #navbar {
+        display: block;
     }
     #menu {
         visibility: visible;
