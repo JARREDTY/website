@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Tyronne Nel - Portfolio and Services</title>
+    <link rel="stylesheet" href="service.css">
+    <title>My Free Services</title>
 </head>
 <body>
     <header>
@@ -19,32 +20,51 @@
             </div>
             <div id="a-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="service.html">Services</a></li>
+                    <li><a href="#">Services</a></li>
                     <li><a href="project.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main>
-        <section id="intro">
-            <div id="img-section">
-                <img src="/images/streamline-date.jpg" alt="Profile Picture">
+    <main id="service-section">
+        <h1 id="service-title">IT SERVICES</h1>
+        <div id="cards-section">
+            <div id="card-container">
+                <a href="networking.html">
+                    <div id="card">
+                        <img src="https://media.gettyimages.com/id/945578354/photo/servers-with-cat-5-cables-on-racks-in-a-large-computer-server-farm.jpg?b=1&s=170667a&w=0&k=20&c=911jN6QVpPx7q0XmyYfYFaXmvqDzUwqkoSm77vgtC8Y=" alt="services">
+                        <h3>Networking</h3>
+                    </div>
+                </a>
             </div>
-            <div id="text-section">
-                <h1 id="intro-h1">Hi I'm Tyronne an <span id="intro-textSpan">IT Specialist</span></h1>
-                <p id="intro-p">I am a recent IT graduate with a strong background in Scripting, Operating Systems, and Security.</p>
+            <div id="card-container">
+                <a href="os.html">
+                    <div id="card">
+                        <img src="https://cdn.hswstatic.com/gif/computer-operating-sytem.jpg" alt="services">
+                        <h3>Operating Systems</h3>
+                    </div>
+                </a>
             </div>
-            <div id="matrix1"></div>
-            <div id="matrix2"></div>
-            <div id="matrix3"></div>
-            <div id="matrix4"></div>
-            <div id="matrix5"></div>
-            <div id="matrix6"></div>
-            <div id="matrix7"></div>
-        </section>
+            <div id="card-container">
+                <a href="sysadmin.html">
+                    <div id="card">
+                        <img src="https://images.squarespace-cdn.com/content/v1/588a02f11b10e3d4643f5c35/1597182547862-KQUEER7HVSTKJJV8AKCC/System+Admin+for+the+Software+Developer.jpg" alt="services">
+                        <h3>System Administration</h3>
+                    </div>
+                </a>
+            </div>
+            <div id="card-container">
+                <a href="security.html">
+                    <div id="card">
+                        <img src="https://th.bing.com/th/id/OIP.nGn_thuRNFV3ZReudxjzPQHaE8?rs=1&pid=ImgDetMain" alt="services">
+                        <h3>CyberSecurity</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
     <footer>
         <div id="left-footer">
@@ -67,6 +87,5 @@
                 </svg>
             </a>
     </footer>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script> -->
 </body>
 </html>
